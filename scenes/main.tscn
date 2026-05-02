@@ -8,7 +8,6 @@ albedo_color = Color(0, 0.32097834, 1.92523e-07, 1)
 [sub_resource type="BoxMesh" id="BoxMesh_sugp2"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_jyhfs"]
-size = Vector3(1, 0.48883057, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o5qli"]
 albedo_color = Color(0, 0.32156864, 1, 1)
@@ -45,7 +44,7 @@ material_override = SubResource("StandardMaterial3D_o5qli")
 mesh = SubResource("BoxMesh_sugp2")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="BOX"]
-transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 35.355927, 11.508162, -66.76092)
+transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 35.355927, 11.396467, -66.76092)
 shape = SubResource("BoxShape3D_jyhfs")
 
 [node name="BOX2" type="StaticBody3D" parent="."]
